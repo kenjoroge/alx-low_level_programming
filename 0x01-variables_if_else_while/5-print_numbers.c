@@ -2,19 +2,19 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print numbers from zero to ten.
+ * main - print numbers fro zero to ten..
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char i;
+	char num;
 	
-	for (i =0; i <=9; ++)
+	for (num = 0; num <= 9; num++)
 	{
 		printf("%d", i)
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
 
