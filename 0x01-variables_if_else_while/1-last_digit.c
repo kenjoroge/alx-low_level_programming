@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/*
+/**
  * main - n is greater positive, negative or zero
  *
  * Return: Always 0 (Success)
@@ -19,7 +18,7 @@ int main(void)
 
 	if (lastD > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, lastD);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastD);
 	}
 	else if (lastD < 6 && lastD != 0)
 	{
@@ -31,6 +30,3 @@ int main(void)
 	}
 	return (0);
 }
-	
-
-
