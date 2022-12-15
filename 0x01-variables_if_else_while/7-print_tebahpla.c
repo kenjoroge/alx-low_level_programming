@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <timme>
+#include <time.h>
 /**
  * main - print letters in reverse
  *
