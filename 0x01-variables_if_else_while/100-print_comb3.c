@@ -11,7 +11,7 @@ int main(void)
 	int tens;
 	int ones;
 
-	While (num <= 99)
+	while (num <= 99)
 	{
 		tens = num % 10;
 		ones = num / 10;
