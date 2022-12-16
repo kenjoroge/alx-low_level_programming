@@ -18,7 +18,7 @@ int main(void)
 		tens = (num / 10) % 10;
 		ones = num % 10;
 
-		If (hundreds < tens && tens < ones)
+		if (hundreds < tens && tens < ones)
 		{
 			putchar(hundreds + '0');
 			putchar(tens + '0');
