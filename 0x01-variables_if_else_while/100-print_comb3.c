@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int num= 0;
+	int num = 0;
 	int tens;
 	int ones;
 
@@ -29,6 +29,5 @@ int main(void)
 		num++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
