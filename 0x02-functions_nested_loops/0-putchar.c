@@ -8,6 +8,20 @@
  */
 int main(void)
 {
+	{
+		void putchar(void)
+		{
+			char c = 'a';
+
+			while (c <= 'z')
+			{
+				_putchar(c++);
+			}
+			_putchar('\n');
+			return (0);
+		}
+	}
+
 	putchar('_');
 	putchar('p');
 	putchar('u');
