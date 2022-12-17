@@ -2,7 +2,7 @@
 /**
  * main -prints putchar
  *
- * Returns 0
+ * Returns: Always  0 (Success)
  */
 int main(void)
 {
