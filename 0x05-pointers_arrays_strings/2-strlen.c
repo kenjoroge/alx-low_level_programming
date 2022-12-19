@@ -16,7 +16,7 @@ int _strlen(char *s)
 	{
 		if (s[len] != '\0')
 			count += 1;
-		else 
+		else
 			break;
 	}
 	return (count);
