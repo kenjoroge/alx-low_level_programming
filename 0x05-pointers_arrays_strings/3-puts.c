@@ -2,7 +2,8 @@
 /**
  * _puts - prints a string followed by a new line
  *
- * @str: argument for string 
+ * @str: argument for string
+ *
  *
  * Return: Always 0
  */
