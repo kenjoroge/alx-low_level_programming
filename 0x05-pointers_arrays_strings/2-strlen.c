@@ -2,7 +2,7 @@
 /**
  * int _strlen - returns the length of a string
  *
- * @len takes the integer value
+ * @s takes the argument for the string
  *
  * Return: string length
  */
@@ -12,7 +12,7 @@ int _strlen(char *s)
 
 	for (len = 0; len <= 10; len++)
 	{
-		_putchar(len);
+		_putchar(len, *s);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
