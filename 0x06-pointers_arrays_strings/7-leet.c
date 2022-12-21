@@ -13,7 +13,7 @@ char *leet(char *s)
 {
 	int sc, lt;
 	char ll[] = "aAeEoOtTlL";
-	char ln[] + "4433007711";
+	char ln[] = "4433007711";
 
 	sc = 0;
 	while (s[sc] != '\0')
