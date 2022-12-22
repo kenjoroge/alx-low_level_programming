@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -strncat - concatenates two strings
+ * _strncat - concatenates two strings
  *  @dest: destination file
  *  @src: Source file
  *  @n: integer n
@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[len] != '\0')
 	{
-		len++
+		len++;
 	}
 	for (j = 0; j < n && src[j] != '\0'; j++, len++)
 	{
