@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * cap_string - Capitalizes all words of a string
- * @k: takes the input 
+ * @k: takes the input
  *
  * Return: Always 0
  */
@@ -9,7 +9,9 @@ char *cap_string(char *k)
 {
 	int i, j, l;
 
-	char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
+	char chars[] = {
+		' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'
+	};
 
 	i = 32;
 
