@@ -6,14 +6,14 @@
  */
 void print_number(int n)
 {
-	unsigned int i = k;
+	unsigned int i = n;
 
-	if (k < 0)
+	if (n < 0)
 	{
 		_putchar('-');
 		i = -i;
 	}
-	if (k > 9)
+	if (n > 9)
 	{
 		print_number(i / 10);
 	}
