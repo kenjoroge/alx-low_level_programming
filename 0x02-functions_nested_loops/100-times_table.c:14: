@@ -1,0 +1,12 @@
+_table.c:20: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:21: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:27: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:29: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:34: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:35: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:41: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:42: ERROR: space prohibited after that '*' (ctx:WxW)
+100-times_table.c:43: ERROR: space prohibited after that '*' (ctx:WxW)
+total: 10 errors, 0 warnings, 48 lines checkeC
+
+
