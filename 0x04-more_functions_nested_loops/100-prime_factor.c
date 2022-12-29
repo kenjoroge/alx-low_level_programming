@@ -23,6 +23,6 @@ int main(void)
 				number /= i;
 		}
 	}
-	printf("ld\n", number);
+	printf("%ld\n", number);
 	return (0);
 }
