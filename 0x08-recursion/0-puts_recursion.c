@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /*
  * _puts_recursion - functions that prints a string followed by a new line
