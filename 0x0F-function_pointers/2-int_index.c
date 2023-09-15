@@ -1,28 +1,25 @@
+#include <stdio.h>
 #include "function_pointers.h"
-
 /**
- * int_index - searches for aninteger
- * @array: Arraycontaining elements
- * @size: Number of elements in an aray
- * @cmp: function which compares values
+ * int_index - looks for an int
+ * @array: pointer
+ * @size: int
+ * @cmp: pointe
  *
- * Return: Always 0
+ * Return: always 0
  */
-
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	int index;
-	if (array == NULL)
-		return (-1);
-	if (size <= 0)
-		return (-1);
-	if (cmp == NULL)
-		return (-1);
-	for (index = 0; a < size; index++)
+	int i;
+
+	if (array && size && cmp)
 	{
-		if ((cmp(array[index])) == 1)
+		for (i = 0; i < size; i++)
 		{
-			return (index);
+			if (cmp(array[i]))
+			{
+				return (i);
+			}
 		}
 	}
 	return (-1);
