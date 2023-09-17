@@ -1,23 +1,30 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * _strdup - create an array of chars
+ * @str: char
  *
- * Return: Always 0.
+ * Return: char
  */
-int main(void)
+char *_strdup(char *str)
 {
-    char *s;
+	char *res;
+	int i = 0, j;
 
-    s = _strdup("ALX SE");
-    if (s == NULL)
-    {
-        printf("failed to allocate memory\n");
-        return (1);
-    }
-    printf("%s\n", s);
-    free(s);
-    return (0);
+	if (str == NULL)
+		return (NULL);
+	while (str[i])
+	{
+		i++;
+	}
+	i++;
+	res = malloc(i * sizeof(char));
+	if (res == NULL)
+		return (NULL);
+	for (j = 0; j <= i; j++)
+	{
+		res[j] = str[j];
+	}
+	return (res);
 }
