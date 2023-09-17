@@ -1,19 +1,27 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include "main.h"
+
 /**
- * malloc_checked - Allocaton of memory
- * @b: Unsigned integer that takes positive numbers
+ * create_array - create an array of chars
+ * @size: number of elements
+ * @c: size of one unit
  *
- * Return: returns a pointer in our case
+ * Return: char
  */
-void *malloc_checked(unsigned int b)
+char *create_array(unsigned int size, char c)
 {
-	void *p;
+	char *res;
+	unsigned int i;
 
-	p = malloc(b);
-
-	if (p == NULL)
-		exit(98);
-	return (p);
+	if (size == 0)
+		return (NULL);
+	res = malloc(size * sizeof(char));
+	if (res == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+	{
+		res[i] = c;
+	}
+	return (res);
 }
