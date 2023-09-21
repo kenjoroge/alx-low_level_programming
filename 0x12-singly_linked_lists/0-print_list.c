@@ -3,13 +3,16 @@
 #include "lists.h"
 
 /**
- * print_list - prints the elements of a linke list
- * @h: linked list
- * Return: Always 0
+ * print_list - print the elements of a linked list.
+ * @h: liked list head.
+ *
+ * Return: amount of nodes of the linked list.
+ *
  */
+
 size_t print_list(const list_t *h)
 {
-	size_t i = 0;
+	size_t count = 0;
 
 	while (h != NULL)
 	{
@@ -18,8 +21,8 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%u] %s\n", h->len, h->str);
 		h = h->next;
-		i++;
+		count++;
 	}
-	return (i);
+	return (count);
 }
 
