@@ -1,4 +1,4 @@
-#include "man.h"
+#include "main.h"
 
 /**
  * _memset - This is my function copy the number the character to S
